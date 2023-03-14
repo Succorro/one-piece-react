@@ -1,0 +1,14 @@
+{
+    "characters": [
+        {
+            "id" : 1,
+            "name": "Monkey D Luffy",
+            "crew": "Straw Hat Pirates",
+            "devil fruit": "Gum Gum Fruit",
+            "origin": "East Blue",
+            "interests": [
+                "meat", "pirate king", "freedom"
+            ]
+        }
+    ]
+}
