@@ -1,5 +1,6 @@
 {
   "name": "one-piece-react",
+  "homepage": "http://localhost:3000/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,8 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "server": "json-server --watch db.json"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
