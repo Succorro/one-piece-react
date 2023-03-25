@@ -12,7 +12,8 @@ function CharactersContainer() {
 
   return (
     <>
-        <CharactersList characters={characters}></CharactersList>
+        <h1>Characters!!</h1>
+        <CharactersList characters={characters}/>
     </>
   )
 }

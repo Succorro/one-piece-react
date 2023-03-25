@@ -4,12 +4,9 @@
             "id" : 1,
             "name": "Monkey D Luffy",
             "crew": "Straw Hat Pirates",
-            "devil fruit": "Gum Gum Fruit",
+            "devilFruit": "Gum Gum Fruit",
             "origin": "East Blue",
-            "interests": [
-                "meat", "pirate king", "freedom"
-            ],
-            "image": ""
+            "image": "https://static.wikia.nocookie.net/onepiece/images/6/6d/Monkey_D._Luffy_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20200429191518"
         }
     ]
 }

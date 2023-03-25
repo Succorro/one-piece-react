@@ -8,6 +8,7 @@ import Header from './navigation/Header';
 import Footer from './navigation/Footer';
 import CharacterCard from "./characters/CharacterCard";
 import React from "react";
+import './App.css'
 
 function App() {
   return (
