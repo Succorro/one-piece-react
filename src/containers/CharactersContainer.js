@@ -1,6 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import CharactersList from '../components/characters/CharactersList'
 
+const style = {
+    width: '1vh',
+    height: '1vh',
+    display: 'flex',
+    padding_bottom: '2.5rem'
+    
+}
+
 function CharactersContainer() {
     const [characters, setCharacters]= useState([])
 
@@ -11,10 +19,10 @@ function CharactersContainer() {
     },[])
 
   return (
-    <>
+    <div className="characters-list" >
         <h1>Characters!!</h1>
-        <CharactersList characters={characters}/>
-    </>
+        <CharactersList style= {style} characters={characters}/>
+    </div>
   )
 }
 
