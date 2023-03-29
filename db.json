@@ -6,7 +6,8 @@
             "crew": "Straw Hat Pirates",
             "devilFruit": "Gum Gum Fruit",
             "origin": "East Blue",
-            "image": "https://static.wikia.nocookie.net/onepiece/images/6/6d/Monkey_D._Luffy_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20200429191518"
+            "image": "../../../Images/LuffyPhoto.jpg",
+            "alt": "Monkey D. Luffy Captain of the StrawHat Pirates"
         },
         {
             "id" : 2,
@@ -14,7 +15,8 @@
             "crew": "Straw Hat Pirates",
             "devilFruit": null,
             "origin": "East Blue",
-            "image": "https://static.wikia.nocookie.net/onepiece/images/6/6d/Monkey_D._Luffy_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20200429191518"
+            "image": "../../../Images/BetterZoro.jpeg",
+            "alt": "Roronoa Zoro Vice Captain of the StawHat Pirates"
         }
     ]
 }

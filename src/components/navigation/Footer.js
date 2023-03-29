@@ -3,7 +3,7 @@ import { SocialIcon } from 'react-social-icons'
 
 function Footer() {
   return (
-    <div className='row' style={{height: '2.5rem', display: 'flex',width: '100%', bottom: '0', position: 'absolute' }}>
+    <div className='row' style={{height: '2.5rem', display: 'flex',width: '100%', bottom: '0', position: 'relative' }}>
         <div className='col-6' style={{width: '50%'}}>
             <h4>Steven Gutierrez</h4>
         </div>
