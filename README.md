@@ -1,10 +1,31 @@
-# Getting Started with Create React App
+# One Piece
+
+## Description
+
+## Installation
+
+1. Fork and clone the repository into your local computer.
+2. Cd into One Piece project
+3. Run snipped in terminal:
+   `npm install`
+4. Run snippet in terminal:
+   `npm install -S react-router-dom@5.3.3`
+5. Run snippet in terminal to start json-server:
+   `npm run server`
+6. Run snippet in termainal to start React server:
+   `npm start`
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm run server`
+
+Runs the db.json server, Open [http://localhost:4000](http://localhost:4000) to view the API.
 
 ### `npm start`
 
@@ -68,3 +89,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

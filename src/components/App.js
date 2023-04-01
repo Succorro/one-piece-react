@@ -1,39 +1,37 @@
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
-import CharactersContainer from '../containers/CharactersContainer';
-import About from './About';
-import Home from './Home';
-import CharacterForm from './characters/CharacterForm';
-import Navbar from './navigation/Navbar';
-import Header from './navigation/Header';
-import Footer from './navigation/Footer';
-import CharacterCard from "./characters/CharacterCard";
+import {Switch, Route} from "react-router-dom"
+import CharactersContainer from "../containers/CharactersContainer";
+import About from "./About.js";
+import Home from "./Home.js";
+import CharacterForm from "./characters/CharacterForm.js";
+import Navbar from './navigation/Navbar.js';
+import Header from './navigation/Header.js';
+import Footer from './navigation/Footer.js';
+import CharacterCard from "./characters/CharacterCard.js";
 import React from "react";
 import './App.css'
 
 function App() {
   return (
-    <div className="App"> 
-        <Router>
+    <div className="App">
           <Navbar/>
           <Header/>
           <Switch>
-            <Route exact path='/characters'>
+            <Route  path='/characters'>
               <CharactersContainer/>
             </Route>
-            <Route  exact path='/characters/new'>
+            <Route   path='/characters/new'>
               <CharacterForm/>
             </Route>
-            <Route  exact path='/characters/:id'>
+            <Route   path='/characters/:id'>
               <CharacterCard/>
             </Route>
-            <Route exact path='/about'>
+            <Route  path='/about'>
               <About/>
             </Route>
             <Route path="/">
               <Home/>
             </Route>
           </Switch>
-        </Router>
       <Footer/>
     </div>
   );

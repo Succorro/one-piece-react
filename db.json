@@ -6,8 +6,7 @@
             "crew": "Straw Hat Pirates",
             "devilFruit": "Gum Gum Fruit",
             "origin": "East Blue",
-            "image": "../../../Images/LuffyPhoto.jpg",
-            "alt": "Monkey D. Luffy Captain of the StrawHat Pirates"
+            "image": "../../../Images/LuffyPhoto.jpg"
         },
         {
             "id" : 2,
@@ -15,8 +14,63 @@
             "crew": "Straw Hat Pirates",
             "devilFruit": null,
             "origin": "East Blue",
-            "image": "../../../Images/BetterZoro.jpeg",
-            "alt": "Roronoa Zoro Vice Captain of the StawHat Pirates"
+            "image": "../../../Images/BetterZoro.jpeg"
+        },
+        {
+            "id" : 3,
+            "name": "Usopp",
+            "crew": "Straw Hat Pirates",
+            "devilFruit": null,
+            "origin": "East Blue",
+            "image": "../../../Images/BetterZoro.jpeg"
+        },
+        {
+            "id" : 4,
+            "name": "Nami",
+            "crew": "Straw Hat Pirates",
+            "devilFruit": null,
+            "origin": "East Blue",
+            "image": "../../../Images/BetterZoro.jpeg"
+        },
+        {
+            "id" : 5,
+            "name": "Vinsmoke Sanji",
+            "crew": "Straw Hat Pirates",
+            "devilFruit": null,
+            "origin": "North Blue",
+            "image": "../../../Images/BetterZoro.jpeg"
+        },
+        {
+            "id" : 6,
+            "name": "Tony Tony Chopper",
+            "crew": "Straw Hat Pirates",
+            "devilFruit": null,
+            "origin": "East Blue",
+            "image": "../../../Images/BetterZoro.jpeg"
+        },
+        {
+            "id" : 7,
+            "name": "Franky",
+            "crew": "Straw Hat Pirates",
+            "devilFruit": null,
+            "origin": "East Blue",
+            "image": "../../../Images/BetterZoro.jpeg"
+        },
+        {
+            "id" : 8,
+            "name": "Brooke",
+            "crew": "Straw Hat Pirates",
+            "devilFruit": null,
+            "origin": "East Blue",
+            "image": "../../../Images/BetterZoro.jpeg"
+        },
+        {
+            "id" : 9,
+            "name": "Jimbe",
+            "crew": "Straw Hat Pirates",
+            "devilFruit": null,
+            "origin": "East Blue",
+            "image": "../../../Images/BetterZoro.jpeg"
         }
     ]
 }

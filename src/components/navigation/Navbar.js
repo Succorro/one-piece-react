@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
  
 function Navbar() {
     const style = {
@@ -10,11 +10,11 @@ function Navbar() {
         color: "black",
     }
   return (
-    <div className="navLinks">
-       <Link style={style} to='/' >Home</Link> 
-       <Link style={style} to='/about'  >About</Link>
-       <Link style={style} to='/characters' >Characters</Link>
-       <Link style={style} to='/characters/new' >New Characters</Link>
+    <div className="navLinks" >
+       <NavLink style={style} to='/' >Home</NavLink> 
+       <NavLink style={style} to='/about'  >About</NavLink>
+       <NavLink style={style} to='/characters' >Characters</NavLink>
+       <NavLink style={style} to='/characters/new' >New Characters</NavLink>
     </div>
   )
 }

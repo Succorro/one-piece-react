@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div>About</div>
+    <div>What is One Piece? Why is it important to me? </div>
   )
 }
 
