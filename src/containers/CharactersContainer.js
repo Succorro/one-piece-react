@@ -21,7 +21,7 @@ function CharactersContainer() {
     },[])
 
   return (
-    <div className="charactersContainer" style={{margin: '0 5vw', width: "90vw", display: "grid", border: "1px solid black"}} >
+    <div className="charactersContainer" >
         <h1>Characters!!</h1>
         <CharacterFilter/>
         <CharactersList characters={characters}/>

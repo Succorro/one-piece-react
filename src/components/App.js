@@ -8,7 +8,7 @@ import Header from './navigation/Header.js';
 import Footer from './navigation/Footer.js';
 import CharacterCard from "./characters/CharacterCard.js";
 import React from "react";
-import './App.css'
+import './App.css' 
 
 function App() {
   return (
