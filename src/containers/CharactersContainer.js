@@ -30,6 +30,7 @@ function CharactersContainer() {
             character.name.toLowerCase().includes(searchValue.toLowerCase()))
         setFilteredCharacters(filterCharacters)
     }
+    //need to create a rerender on the page in order to load content into the filteredCharacters Array
     function handleCharacters(characters) {
         setFilteredCharacters(characters)
     }
