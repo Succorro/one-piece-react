@@ -18,9 +18,12 @@ a {
   font-size: 25px
 }
 .information img{
-  width: 50vw;
+  width: 33%;
   height: 50vh; 
   object-fit: contain
+}
+.information p{
+  width: 33%;
 }
 
 .charactersContainer{
