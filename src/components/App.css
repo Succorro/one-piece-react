@@ -46,8 +46,10 @@ button img{
 .characterCard{
   width: 33%;
   flex-grow: 1;
-  border: 1px solid black;
+  padding: 1px;
+  margin: 5px;
   background-color: grey;
+  border-radius: 50px;
  
 }
 

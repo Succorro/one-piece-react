@@ -68,8 +68,8 @@
             "id" : 9,
             "name": "Brook",
             "crew": "Straw Hat Pirates",
-            "devilFruit": null,
-            "origin": "Yomi Yomi no Mi",
+            "devilFruit": "Yomi Yomi no Mi",
+            "origin": "West Blue",
             "image": "../../../Images/Brook.jpeg"
         },
         {
@@ -78,7 +78,7 @@
             "crew": "Straw Hat Pirates",
             "devilFruit": null,
             "origin": "Grand Line",
-            "image": "../../../Images/Brook.jpeg"
+            "image": "../../../Images/Jimbe.jpeg"
         }
         
     ]
