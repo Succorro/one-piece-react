@@ -1,8 +1,12 @@
-import React from 'react'
-
-function CharacterFilter() {
+import React from "react"
+function CharacterFilter({handleSearch}) {
   return (
-    <div>CharacterFilter</div>
+    <div>
+            <input 
+            type='text' 
+            placeholder='Search Characters...' 
+            onChange={e => handleSearch(e.target.value)} />
+    </div>
   )
 }
 

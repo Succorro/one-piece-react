@@ -4,7 +4,7 @@ import About from "./About.js";
 import Home from "./Home.js";
 import CharacterForm from "./characters/CharacterForm.js";
 import Navbar from './navigation/Navbar.js';
-import Header from './navigation/Header.js';
+
 import Footer from './navigation/Footer.js';
 import CharacterCard from "./characters/CharacterCard.js";
 import React from "react";
@@ -14,7 +14,6 @@ function App() {
   return (
     <div className="App">
           <Navbar/>
-          <Header/>
           <Switch>
             <Route  path='/characters'>
               <CharactersContainer/>
