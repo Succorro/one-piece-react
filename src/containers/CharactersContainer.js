@@ -12,26 +12,24 @@ function CharactersContainer() {
             fetch('http://localhost:4000/charactersData')
             .then(r => r.json())
             .then((data) => 
-            setCharacters(data)); setFilteredCharacters(characters)
+            setCharacters(data));  
              
         } catch (error) {
             alert(error)
-        }
-        
+        }  
     }
-    
     useEffect(()=> {
-        fetchData() 
-        setFilteredCharacters(characters)
+        fetchData()
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    },[fetchData])
+    },[])
+    
     
     function handleSearch(searchValue) {
         const filterCharacters = characters.filter((character) =>
             character.name.toLowerCase().includes(searchValue.toLowerCase()))
         setFilteredCharacters(filterCharacters)
     }
-
+    useEffect(()=>setFilteredCharacters(characters), [characters])
   return (
     <div className="charactersContainer" >
         <h1>One Piece Characters </h1>

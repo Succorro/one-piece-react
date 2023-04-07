@@ -5,7 +5,7 @@ function CharacterFilter({handleSearch}) {
             <input 
             type='text' 
             placeholder='Search Characters...' 
-            onChange={e => handleSearch(e.target.value)} />
+            onChange={event => handleSearch(event.target.value)} />
     </div>
   )
 }
