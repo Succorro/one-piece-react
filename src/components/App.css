@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-.navLinks{
+.navContainer{
   height: 5vh;
   background: rgb(13,95,181);
   background: linear-gradient(90deg, rgba(6,102,232,1) 10%, rgba(255,254,254,1) 100%);
@@ -13,29 +13,30 @@ a {
   color: black;
 }
 
-.about{
+.aboutContainer{
   font-family: fantasy;
   font-size: x-large;
   background-image: url(../../public/Images/background-OnePiece.webp);
-  height: 90vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 
 }
-.information{
-  display: flex;
+.homePageInformation{
+  display: block;
   font-family: fantasy;
   font-size: xx-large
 }
-.information img{
-  width: 33%;
+.homePageInformation img{
+  width: 100%;
   height: 50vh; 
   object-fit: contain
 }
-.information p{
-  width: 33%;
+.homePageInformation p{
+  width: 100%;
 }
-.homePage{
+
+.homeContainer{
   font-family: fantasy;
   font-size: large;
 }
@@ -63,17 +64,12 @@ a {
   border: 1px solid black
 }
 
-button img{
-  width: 10px;
-  height: 10px;
-}
-
 .characterCard{
   width: 33%;
   flex-grow: 1;
   padding: 1px;
   margin: 5px;
-  background-color: grey;
+  background-color: rgb(113,159,239,1);
   border-radius: 50px;
  
 }
