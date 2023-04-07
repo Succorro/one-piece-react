@@ -2,6 +2,10 @@
 
 ## Description
 
+This React application showcases the main characters of a popular anime, One Piece.
+
+The One Piece anime depicts the adventures of Monkey D. Luffy, the young caption of a pirate crew with the power to stretch his body like rubber. In this world full of pirates, Luffy set out to sea with one goal in mind. He wants to become the King of all Pirates. This feat was accomplished once before 20 years in the past by a man named Gol D. Roger. Inspired by this accomplishment, Luffy has formed his own crew full of talented individuals who believe in his dream and will do anything to see to it that their captain attains that triumph.
+
 ## Installation
 
 1. Fork and clone the repository into your local computer.
