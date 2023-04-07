@@ -79,38 +79,6 @@
       "devilFruit": null,
       "origin": "Grand Line",
       "image": "../../../Images/Jimbe.jpeg"
-    },
-    {
-      "name": "Gol D. Roger",
-      "crew": "Roger Pirates",
-      "devilFurit": "",
-      "origin": "East Blue",
-      "image": "https://static.wikia.nocookie.net/disney/images/5/56/Profile_-_Rex.jpeg",
-      "id": 11
-    },
-    {
-      "name": "steven",
-      "crew": "",
-      "devilFurit": "",
-      "origin": "",
-      "image": "",
-      "id": 12
-    },
-    {
-      "name": "new character",
-      "crew": "",
-      "devilFurit": "",
-      "origin": "",
-      "image": "",
-      "id": 13
-    },
-    {
-      "name": "testing",
-      "crew": "",
-      "devilFruit": "",
-      "origin": "",
-      "image": "",
-      "id": 14
     }
   ]
 }

@@ -10,24 +10,20 @@ import './App.css'
 
 function App() {
   const [characters, setCharacters]= useState([])
-  function fetchData() {
-    try {
-        fetch('http://localhost:4000/charactersData')
-        .then(r => r.json())
-        .then((data) => 
-        setCharacters(data));  
-         
-    } catch (error) {
-        alert(error)
-    }  
-}
 useEffect(()=> {
-    fetchData()
+  try {
+      fetch('http://localhost:4000/charactersData')
+      .then(r => r.json())
+      .then((data) => 
+      setCharacters(data));  
+      
+  } catch (error) {
+      alert(error)
+  }  
 // eslint-disable-next-line react-hooks/exhaustive-deps
 },[])
 
   function onAddCharacter(newCharacter){
-    console.log(newCharacter)
     setCharacters((prevArray)=>[...prevArray, newCharacter])
   }
   return (

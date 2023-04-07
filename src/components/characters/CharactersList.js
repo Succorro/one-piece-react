@@ -10,7 +10,7 @@ function CharactersList({characters}) {
   return (
         <div className='characterDisplay'>
                 {displayCharacters}
-            </div>
+        </div>
   )
 }
 
