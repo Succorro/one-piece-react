@@ -95,3 +95,7 @@ a {
   margin: 8px 0;
   box-sizing: border-box;
 }
+.characterForm button{
+  margin-top: 5px;
+  padding: 5px 10px
+}

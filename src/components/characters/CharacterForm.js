@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { useHistory } from 'react-router-dom';
 
-function CharacterForm() {
+function CharacterForm({onAddCharacter}) {
     const history = useHistory()
     const [formData, setFormData] = useState({
         name: '',
@@ -23,14 +23,12 @@ function CharacterForm() {
             headers: {
                 "Content-Type": "application/json",
             },
-            body: JSON.stringify({
-                name: formData.name,
-                crew: formData.crew,
-                devilFurit: formData.devilFruit,
-                origin: formData.origin,
-                image: formData.image
-            })
-    });
+            body: JSON.stringify(formData)
+        })
+        .then(r=> r.json())
+        .then(newCharacter => {
+            console.log(newCharacter, 'formSubmit')
+            onAddCharacter(newCharacter)})
     setFormData({
         name: '',
         crew: '',
