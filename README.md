@@ -6,7 +6,7 @@
 
 1. Fork and clone the repository into your local computer.
 2. Cd into One Piece project
-3. Run snipped in terminal:
+3. Run snippet in terminal:
    `npm install`
 4. Run snippet in terminal:
    `npm install -S react-router-dom@5.3.3`

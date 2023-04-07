@@ -15,13 +15,13 @@ function App() {
     <div className="App">
           <Navbar/>
           <Switch>
-            <Route exact  path='/characters'>
+            <Route exact path='/characters'>
               <CharactersContainer/>
             </Route>
             <Route    path='/characters/new'>
               <CharacterForm/>
             </Route>
-            <Route   path='/characters/:id'>
+            <Route path="/characters/:id">
               <CharacterCard/>
             </Route>
             <Route  path='/about'>
