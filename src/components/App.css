@@ -16,7 +16,7 @@ a {
 .aboutContainer{
   font-family: fantasy;
   font-size: x-large;
-  background-image: url(../../public/Images/background-OnePiece.webp);
+  /* background-image: url(../../public/Images/background-OnePiece.webp); */
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,4 +84,14 @@ a {
 .characterCard ul{
   list-style: none;
   text-align: left
+}
+
+.characterForm{
+  margin: 0 5%;
+}
+.characterForm input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
