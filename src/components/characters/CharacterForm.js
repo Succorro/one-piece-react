@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
+import { useHistory } from 'react-router-dom';
 
 function CharacterForm() {
+    const history = useHistory()
     const [formData, setFormData] = useState({
         name: '',
         crew: '',
@@ -16,14 +18,31 @@ function CharacterForm() {
     }
     function handleSubmit(e){
         e.preventDefault();
-        if ([formData].some(val => val.trim() === "")) {
-            alert("Please fill out all the fields, thank you!!!")
-            return null
-        }
+        fetch("http://localhost:4000/charactersData", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+                name: formData.name,
+                crew: formData.crew,
+                devilFurit: formData.devilFruit,
+                origin: formData.origin,
+                image: formData.image
+            })
+    });
+    setFormData({
+        name: '',
+        crew: '',
+        devilFruit: '',
+        origin: '',
+        image: '',
+    })
+    history.push("/characters")
 
     }
   return (
-    <div>
+    <div className='characterForm'>
         <h1>Add More Characters!</h1>
         <form onSubmit={handleSubmit}>
             <label>
@@ -66,6 +85,7 @@ function CharacterForm() {
                     value={formData.image}
                     onChange={handleChange}/>
             </label>
+            <button type='submit'>Add Character</button>
         </form>
     </div>
   )

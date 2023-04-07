@@ -1,85 +1,84 @@
 {
-    "charactersData": [
-        {
-            "id" : 1,
-            "name": "Monkey D Luffy",
-            "crew": "Straw Hat Pirates",
-            "devilFruit": "Gomu Gomu no Mi",
-            "origin": "East Blue",
-            "image": "../../../Images/LuffyPhoto.jpg"
-        },
-        {
-            "id" : 2,
-            "name": "Roronoa Zoro",
-            "crew": "Straw Hat Pirates",
-            "devilFruit": null,
-            "origin": "East Blue",
-            "image": "../../../Images/BetterZoro.jpeg"
-        },
-        {
-            "id" : 3,
-            "name": "Usopp",
-            "crew": "Straw Hat Pirates",
-            "devilFruit": null,
-            "origin": "East Blue",
-            "image": "../../../Images/Usopp.jpeg"
-        },
-        {
-            "id" : 4,
-            "name": "Nami",
-            "crew": "Straw Hat Pirates",
-            "devilFruit": null,
-            "origin": "East Blue",
-            "image": "../../../Images/Nami.jpeg"
-        },
-        {
-            "id" : 5,
-            "name": "Vinsmoke Sanji",
-            "crew": "Straw Hat Pirates",
-            "devilFruit": null,
-            "origin": "North Blue",
-            "image": "../../../Images/Sanji.jpeg"
-        },
-        {
-            "id" : 6,
-            "name": "Tony Tony Chopper",
-            "crew": "Straw Hat Pirates",
-            "devilFruit": "Hito Hito no Mi",
-            "origin": "Grand Line",
-            "image": "../../../Images/Chopper.jpeg"
-        },
-        {
-            "id" : 7,
-            "name": "Nico Robin",
-            "crew": "Straw Hat Pirates",
-            "devilFruit": "Hana Hana no Mi",
-            "origin": "West Blue",
-            "image": "../../../Images/Robin.jpeg"
-        },
-        {
-            "id" : 8,
-            "name": "Franky",
-            "crew": "Straw Hat Pirates",
-            "devilFruit": null,
-            "origin": "South Blue",
-            "image": "../../../Images/Franky.jpeg"
-        },
-        {
-            "id" : 9,
-            "name": "Brook",
-            "crew": "Straw Hat Pirates",
-            "devilFruit": "Yomi Yomi no Mi",
-            "origin": "West Blue",
-            "image": "../../../Images/Brook.jpeg"
-        },
-        {
-            "id" : 10,
-            "name": "Jimbe",
-            "crew": "Straw Hat Pirates",
-            "devilFruit": null,
-            "origin": "Grand Line",
-            "image": "../../../Images/Jimbe.jpeg"
-        }
-        
-    ]
+  "charactersData": [
+    {
+      "id": 1,
+      "name": "Monkey D Luffy",
+      "crew": "Straw Hat Pirates",
+      "devilFruit": "Gomu Gomu no Mi",
+      "origin": "East Blue",
+      "image": "../../../Images/LuffyPhoto.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Roronoa Zoro",
+      "crew": "Straw Hat Pirates",
+      "devilFruit": null,
+      "origin": "East Blue",
+      "image": "../../../Images/BetterZoro.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Usopp",
+      "crew": "Straw Hat Pirates",
+      "devilFruit": null,
+      "origin": "East Blue",
+      "image": "../../../Images/Usopp.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Nami",
+      "crew": "Straw Hat Pirates",
+      "devilFruit": null,
+      "origin": "East Blue",
+      "image": "../../../Images/Nami.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Vinsmoke Sanji",
+      "crew": "Straw Hat Pirates",
+      "devilFruit": null,
+      "origin": "North Blue",
+      "image": "../../../Images/Sanji.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Tony Tony Chopper",
+      "crew": "Straw Hat Pirates",
+      "devilFruit": "Hito Hito no Mi",
+      "origin": "Grand Line",
+      "image": "../../../Images/Chopper.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Nico Robin",
+      "crew": "Straw Hat Pirates",
+      "devilFruit": "Hana Hana no Mi",
+      "origin": "West Blue",
+      "image": "../../../Images/Robin.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Franky",
+      "crew": "Straw Hat Pirates",
+      "devilFruit": null,
+      "origin": "South Blue",
+      "image": "../../../Images/Franky.jpeg"
+    },
+    {
+      "id": 9,
+      "name": "Brook",
+      "crew": "Straw Hat Pirates",
+      "devilFruit": "Yomi Yomi no Mi",
+      "origin": "West Blue",
+      "image": "../../../Images/Brook.jpeg"
+    },
+    {
+      "id": 10,
+      "name": "Jimbe",
+      "crew": "Straw Hat Pirates",
+      "devilFruit": null,
+      "origin": "Grand Line",
+      "image": "../../../Images/Jimbe.jpeg"
+    }
+  ]
 }
