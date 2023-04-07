@@ -46,6 +46,14 @@ a {
   display: grid;
   border: 1px solid black
 }
+.charactersContainer h1{
+  font-family: fantasy;
+  font-size: xxx-large;
+  margin-bottom: 0;
+}
+.filterComponent{
+  margin-bottom: 1em;
+}
 
 .characterDisplay{
   display: flex;

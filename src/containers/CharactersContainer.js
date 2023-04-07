@@ -22,22 +22,15 @@ function CharactersContainer() {
     
     useEffect(()=> {
         fetchData() 
+        setFilteredCharacters(characters)
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    },[])
+    },[fetchData])
     
     function handleSearch(searchValue) {
         const filterCharacters = characters.filter((character) =>
             character.name.toLowerCase().includes(searchValue.toLowerCase()))
         setFilteredCharacters(filterCharacters)
     }
-    //need to create a rerender on the page in order to load content into the filteredCharacters Array
-    function handleCharacters(characters) {
-        setFilteredCharacters(characters)
-    }
-    useEffect(()=>{
-        handleCharacters(characters)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    },[fetchData])
 
   return (
     <div className="charactersContainer" >

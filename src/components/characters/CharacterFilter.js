@@ -1,7 +1,7 @@
 import React from "react"
 function CharacterFilter({handleSearch}) {
   return (
-    <div>
+    <div className='filterComponent'>
             <input 
             type='text' 
             placeholder='Search Characters...' 
