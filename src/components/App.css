@@ -1,10 +1,10 @@
 .App {
+  background-color: rgb(246 174 66);
   text-align: center;
 }
 .navContainer{
   height: 5vh;
-  background: rgb(13,95,181);
-  background: linear-gradient(90deg, rgba(6,102,232,1) 10%, rgba(255,254,254,1) 100%);
+  background-color: rgb(246 174 66);
 }
 a {
   width: 30%;
@@ -16,11 +16,34 @@ a {
 .aboutContainer{
   font-family: fantasy;
   font-size: x-large;
-  /* background-image: url(../../public/Images/background-OnePiece.webp); */
-  height: 100vh;
-  background-repeat: no-repeat;
+  height: 200vh;
+  background-color: rgb(246 174 66);
+  background-repeat: repeat;
   background-size: cover;
-
+}
+.aboutContainer :nth-child(2){
+  margin: 5%;
+}
+.aboutContainer p{
+  border: 1px solid black;
+  overflow: scroll;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  width: 50%;
+  height: fit-content;
+  font-size: large;
+  border-radius: 5px;
+  background-color: lightgray;
+}
+.p1{
+  float: right;
+  margin: 20% -30%;
+}
+.aboutImage{
+  margin-right: 10%;
+  float: right;
+  height: 81vh;
+  margin-top: 0%;
 }
 .homePageInformation{
   display: block;
@@ -45,7 +68,6 @@ a {
   margin: 0 5vw;
   width: 90vw;
   display: grid;
-  border: 1px solid black
 }
 .charactersContainer h1{
   font-family: fantasy;
@@ -61,7 +83,6 @@ a {
   flex-wrap: wrap;
   width: 100%; 
   height: 100%; 
-  border: 1px solid black
 }
 
 .characterCard{
@@ -69,7 +90,7 @@ a {
   flex-grow: 1;
   padding: 1px;
   margin: 5px;
-  background-color: rgb(113,159,239,1);
+  background-color:#FFC107;
   border-radius: 50px;
  
 }
@@ -92,10 +113,43 @@ a {
 .characterForm input{
   width: 100%;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin: 20px 0;
   box-sizing: border-box;
+  background-color: papayawhip;
 }
-.characterForm button{
+button{
+  background-color: papayawhip;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
   margin-top: 5px;
-  padding: 5px 10px
+  box-shadow: 0 .5px #999
+}
+button:hover{
+  background-color: black;
+  color: papayawhip;
+  cursor: pointer;
+}
+button:active {
+  background-color: black;
+  box-shadow: 0 .5px #666;
+  transform: translateY(1px);
+}
+
+.row{
+  height: 2.5rem;
+  display: flex;
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  margin-top: 1em;
+  align-items: center;
+}
+.col-6{
+  width: 50%;
 }
