@@ -79,6 +79,14 @@
       "devilFruit": null,
       "origin": "Grand Line",
       "image": "../../../Images/Jimbe.jpeg"
+    },
+    {
+      "name": "Gol D. Roger",
+      "crew": "Roger Pirates",
+      "devilFruit": "",
+      "origin": "East Blue",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB2d_3LKbphqK-k-4Tfrs-EBFaBBW5RK2bUg&usqp=CAU",
+      "id": 11
     }
   ]
 }

@@ -5,6 +5,7 @@
 .navContainer{
   height: 5vh;
   background-color: rgb(246 174 66);
+  padding-top: 1%;
 }
 a {
   width: 30%;
@@ -99,7 +100,7 @@ a {
   padding-top: 10px; 
   width: 100px; 
   height: 100px; 
-  object-fit: contain fill;
+  object-fit: cover;
   border-radius: 30px;
 }
 .characterCard ul{

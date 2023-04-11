@@ -4,19 +4,21 @@
 
 This React application showcases the main characters of a popular anime, One Piece.
 
+![Alt Text](/public/Images/OnePieceSnippet.gif)
+
 The One Piece anime depicts the adventures of Monkey D. Luffy, the young caption of a pirate crew with the power to stretch his body like rubber. In this world full of pirates, Luffy set out to sea with one goal in mind. He wants to become the King of all Pirates. This feat was accomplished once before 20 years in the past by a man named Gol D. Roger. Inspired by this accomplishment, Luffy has formed his own crew full of talented individuals who believe in his dream and will do anything to see to it that their captain attains that triumph.
 
 ## Installation
 
 1. Fork and clone the repository into your local computer.
 2. Cd into One Piece project
-3. Run snippet in terminal:
+3. Run snippet in directory:
    `npm install`
-4. Run snippet in terminal:
+4. Run snippet in directory:
    `npm install -S react-router-dom@5.3.3`
-5. Run snippet in terminal to start json-server:
+5. Run snippet in directory to start json-server:
    `npm run server`
-6. Run snippet in termainal to start React server:
+6. Run snippet in directory to start React server:
    `npm start`
 
 ## Getting Started with Create React App
@@ -27,16 +29,28 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+
+This will get and install all available dependencies for React.
+
+### `npm install -S react-router-dom@5.3.3`
+
+**Note: Any previous versions of React Router will not be compatible with Node v16.17.1 used in this App!**
+
+Runs React Router, a client-side routing library for React.\
+For more information visit: [React Router](https://v5.reactrouter.com/web/guides/quick-start)
+
 ### `npm run server`
 
-Runs the db.json server, Open [http://localhost:4000](http://localhost:4000) to view the API.
+Runs the db.json server, Open [http://localhost:4000](http://localhost:4000) to view.
 
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Hosts the app and opens a browser window to display App.\
+Open [http://localhost:3000](http://localhost:3000) to view if the browser does not open.
 
-The page will reload when you make changes.\
+The page will reload if you make changes.\
 You may also see any lint errors in the console.
 
 ### `npm test`
