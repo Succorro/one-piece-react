@@ -42,7 +42,7 @@ For more information visit: [React Router](https://v5.reactrouter.com/web/guides
 
 ### `npm run server`
 
-Runs the db.json server, Open [http://localhost:4000](http://localhost:4000) to view.
+Runs the db.json server, Open [http://localhost:4000/charactersData](http://localhost:4000/charactersData) to view.
 
 ### `npm start`
 
